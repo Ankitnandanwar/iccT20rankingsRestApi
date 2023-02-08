@@ -1,0 +1,17 @@
+{
+  "name": "icc-rankings-api",
+  "version": "1.0.0",
+  "description": "ICC Rankings API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/cricketapi.js",
+    "dev": "nodemon src/cricketapi.js"
+  },
+  "author": "Ankit Nandanwar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
